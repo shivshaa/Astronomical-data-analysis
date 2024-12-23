@@ -6,23 +6,23 @@
 
 The main outcomes of this project include:
 
-#### Querying and Retrieving Astronomical Data
+#### 1. Querying and Retrieving Astronomical Data
 - Connecting to the Gaia database and retrieving data for specific regions of the sky.
 - Writing ADQL (Astronomical Data Query Language) queries for advanced filtering, such as cone searches, polygon searches, and joining multiple datasets.
 
-#### Transforming and Filtering Data
+#### 2. Transforming and Filtering Data
 - Using libraries like Astropy and Gala to work with coordinates, units, and coordinate transformations (e.g., converting ICRS coordinates to GD-1’s frame).
 - Filtering data for stars that meet specific criteria, such as proximity to GD-1 or specific proper motion values.
 
-#### Storing and Managing Data
+#### 3. Storing and Managing Data
 - Saving and loading data in formats like FITS and CSV for efficient handling of large datasets.
 - Combining photometry and positional data using JOIN operations.
 
-#### Analyzing and Visualizing Data
+#### 4. Analyzing and Visualizing Data
 - Plotting data (e.g., proper motion plots, color-magnitude diagrams) to identify patterns and features of interest.
 - Customizing visualizations to make publication-quality figures with annotations and subplots.
 
-#### Identifying GD-1 Stars
+#### 5. Identifying GD-1 Stars
 - Narrowing down the list of stars likely to belong to the GD-1 stream using proper motion and photometry data.
 - Combining spatial, kinematic, and photometric criteria to isolate stars of interest.
 
