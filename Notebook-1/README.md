@@ -27,9 +27,6 @@ Almost everything you will learn about ADQL also works in SQL.
 ### Connecting to Gaia
 The library we'll use to get Gaia data is Astroquery. Astroquery provides Gaia, which is an object that represents a connection to the Gaia database.
 
-We can connect to the Gaia database like this:
-## from astroquery.gaia import Gaia
-
 With tables this big, we generally don't directly download the tables. Instead, you use queries to select only the data you want.
 A query is a string written in a query language like SQL; for the Gaia database, the query language is a dialect of SQL called ADQL.
 
