@@ -1,5 +1,7 @@
 ## Task: Cone Search and GD-1 Vicinity
 
+![alt text](gd1_results.png)
+
 This notebook starts with an example that performs a **cone search**, selecting stars that appear in a circular region of the sky.
 
 To select stars in the vicinity of GD-1, we:
